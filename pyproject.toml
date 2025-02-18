@@ -1,0 +1,20 @@
+[project]
+name = "fastai-p2-nbs"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "diffusers>=0.32.2",
+    "fastai>=2.7.18",
+    "huggingface-hub>=0.28.1",
+    "ipywidgets>=8.1.5",
+    "torchvision>=0.20.1",
+    "transformers>=4.49.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "uv>=0.6.0",
+]
